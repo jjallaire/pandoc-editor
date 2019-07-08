@@ -1,6 +1,6 @@
 // app.ts
 
-import { hello } from './src/editor'
+import { hello } from './src/editor/'
 
 export class Hero {
   id: number;
