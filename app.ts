@@ -6,7 +6,8 @@ export class Hero {
   id: number;
   name: string;
 
-  constructor(name) {
+  constructor(name: string) {
+    this.id = 42;
     this.name = name;
   }
 

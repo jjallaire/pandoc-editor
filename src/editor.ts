@@ -1,5 +1,9 @@
 
 
 export function hello() : void {
-  console.log('hello');
+
+  const container: HTMLElement | null = document.getElementById('container');
+  if (container)
+    container.innerText = 'hello';
 }
+
