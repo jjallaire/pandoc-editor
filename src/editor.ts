@@ -1,5 +1,5 @@
 
 
 export function hello() : void {
-    console.log('hello');
+  console.log('hello');
 }
